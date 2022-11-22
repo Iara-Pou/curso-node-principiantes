@@ -14,4 +14,3 @@ fs.readFile("./prueba.txt", function(error, contenido){
         console.log(`el archivo dice ${contenido}`);
     }
 })
-
