@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@types/node": "^18.11.9",
-    "colors": "^1.4.0"
-  }
-}
