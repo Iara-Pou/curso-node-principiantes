@@ -12,4 +12,3 @@ server.listen(3000, function(){
     console.log("servidor levantado en puerto 3000".rainbow)
 });    
 
-server.close();
