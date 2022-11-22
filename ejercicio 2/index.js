@@ -1,16 +1,16 @@
 const fs = require("fs");
 
 //para crear un archivo nuevo
-fs.writeFile("./prueba.txt", "hola soy una prueba", function (error) {
+fs.writeFile("./prueba.txt", "Hola mundo!", function (error) {
     if (error) { console.log(error) 
-    } else { console.log("está todo bien") 
+    } else { console.log("Se creó el archivo correctamente.") 
 }
 });
 
 fs.readFile("./prueba.txt", function(error, contenido){
     if(error){
-        console.log("hubo un problema", error);
+        console.log(error);
     } else {
-        console.log(`el archivo dice ${contenido}`);
+        console.log(`El archivo dice ${contenido}`);
     }
 })
